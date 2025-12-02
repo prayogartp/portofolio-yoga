@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YOGA ID</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader">
+    <div class="spinner"></div>
+  </div>
+  <div class="particles"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">My<span class="accent"> Profile</span></a>
+
+      <button id="hamburger" class="hamburger" aria-label="menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="nav" class="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Project</a>
+        <a href="#education" class="nav-link">Education</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-inner container">
+        <div class="hero-left">
+          <h1 class="title">Hi, l'm <span>Prayoga Rizky Triputra</span></h1>
+          <p class="subtitle">Frontend • UI/UX • Web Developer</p>
+
+          <div class="social-horizontal">
+            <p class="social-label">Social Media:</p>
+            <div class="social-icons">
+              <a href="https://instagram.com/prayogartp_" target="_blank" class="social-icon instagram" title="Instagram">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+              <a href="https://wa.me/6283179060741" target="_blank" class="social-icon whatsapp" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+              </a>
+              <a href="mailto:prayogaprayoga446@gmail.com" class="social-icon gmail" title="Gmail">
+                <i class="fas fa-envelope"></i>
+                <span>Email</span>
+              </a>
+              <a href="https://github.com/prayogartp" target="_blank" class="social-icon github" title="GitHub">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right glass">
+          <div class="profile-wrap">
+            <div class="image-container">
+              <img id="profileImg" class="profile-img" alt="Foto Prayoga Rizky Triputra" src="3.jpg">
+              <div class="profile-overlay"></div>
+              <div class="profile-badge">
+                <i class="fas fa-check-circle"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-header">
+              <h3>Prayoga Rizky Triputra</h3>
+              <p class="muted">Frontend & UI Designer</p>
+              <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Depok - Indonesia</span>
+              </div>
+            </div>
+
+            <p class="mini">Saya membuat website modern, aesthetic, dan responsif. 
+              Desain clean dengan fokus pada pengalaman pengguna yang optimal.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container reveal">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Saya adalah seorang Frontend Developer dengan spesialisasi dalam pembuatan antarmuka pengguna yang intuitif dan menarik. Fokus saya adalah pada performa, aksesibilitas, dan keindahan desain.</p>
+            <div class="skills">
+              <h3>Skill</h3>
+              <div class="skill-container">
+                <div class="skill-track">
+                  <div class="skill-list">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">UI/UX Design</span>
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Responsive Design</span>
+                    <span class="skill-tag">Git</span>
+                  </div>
+
+                  <div class="skill-list" aria-hidden="true">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">UI/UX Design</span>
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Responsive Design</span>
+                    <span class="skill-tag">Git</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="reveal">Project</h2>
+        <div class="grid">
+          <article class="card reveal">
+            <div class="card-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <h3>Portfolio Modern</h3>
+            <p>Single-page portfolio dengan animasi halus dan responsive.</p>
+            <div class="tech-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">
+              <i class="fas fa-coffee"></i>
+            </div>
+            <h3>Warkop Tiga Putra</h3>
+            <p>Sistem toko online dengan FastAPI & UI aesthetic.</p>
+            <div class="tech-tags">
+              <span>FastAPI</span>
+              <span>Python</span>
+              <span>Tailwind</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Dashboard Analytics</h3>
+            <p>Desain dashboard fokus pada data clarity dan chart.</p>
+            <div class="tech-tags">
+              <span>React</span>
+              <span>Chart.js</span>
+              <span>API</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section education">
+      <div class="container reveal">
+        <h2>Education</h2>
+        <div class="education-timeline">
+          
+          <div class="education-item">
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="education-content">
+              <div class="education-header">
+                <h3>SMK GHAMA CARAKA</h3>
+                <span class="education-year">2020 - 2023</span>
+              </div>
+              <p class="education-degree">Teknik Komputer dan Jaringan (TKJ)</p>
+              <div class="education-details">
+                <p><i class="fas fa-star"></i> Fokus pada jaringan komputer, hardware, dan sistem operasi</p>
+                <p><i class="fas fa-star"></i> Pengalaman praktikum troubleshooting jaringan</p>
+                <p><i class="fas fa-star"></i> Memahami dasar-dasar pemrograman web</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="education-item">
+            <div class="education-icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <div class="education-content">
+              <div class="education-header">
+                <h3>Bootcamp & Online Course</h3>
+                <span class="education-year">2022 - 2023</span>
+              </div>
+              <p class="education-degree">Frontend Development & UI/UX Design</p>
+              <div class="education-details">
+                <p><i class="fas fa-check-circle"></i> Belajar mandiri melalui platform online (Udemy, YouTube, FreeCodeCamp)</p>
+                <p><i class="fas fa-check-circle"></i> Menguasai HTML, CSS, JavaScript modern</p>
+                <p><i class="fas fa-check-circle"></i> Memahami prinsip UI/UX Design dengan Figma</p>
+                <p><i class="fas fa-check-circle"></i> Membangun project portfolio untuk mengasah skill</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="education-item">
+            <div class="education-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <div class="education-content">
+              <div class="education-header">
+                <h3>Sertifikasi & Workshop</h3>
+                <span class="education-year">2023 - 2024</span>
+              </div>
+              <p class="education-degree">Web Development Certification</p>
+              <div class="education-details">
+                <p><i class="fas fa-award"></i> Responsive Web Design - FreeCodeCamp</p>
+                <p><i class="fas fa-award"></i> JavaScript Algorithms & Data Structures</p>
+                <p><i class="fas fa-award"></i> Workshop Frontend Development lokal</p>
+                <p><i class="fas fa-award"></i> UI/UX Design Fundamentals dengan Figma</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a class="brand" href="#home">My<span class="accent"> Profile</span></a>
+          <p>Menghubungkan ide dengan teknologi.</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://instagram.com/prayogartp_" target="_blank" class="footer-social-icon" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/6283179060741" target="_blank" class="footer-social-icon" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="mailto:prayogaprayoga446@gmail.com" class="footer-social-icon" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://github.com/prayogartp" target="_blank" class="footer-social-icon" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <p class="copyright">© <span id="year"></span> Prayoga Rizky Triputra.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
